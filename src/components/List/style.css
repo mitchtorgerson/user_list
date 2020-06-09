@@ -1,0 +1,27 @@
+.list-container {
+    margin: 10px 0;
+}
+
+.list-row:hover {
+    background: #efefef;
+}
+
+.list-item {
+    cursor: pointer;
+    text-align: left;
+    padding: 5px;
+}
+
+.list-item.actions {
+    text-align: right;
+}
+
+.list-item.cell {
+    line-height: 50px;
+}
+
+.list-item.header {
+    font-size: 16px;
+    font-weight: bold;
+    background: #cecece;
+}

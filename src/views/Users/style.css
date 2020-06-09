@@ -1,0 +1,15 @@
+.App {
+    text-align: center;
+}
+
+.list-header {
+    margin-top: 30px;
+}
+
+.list-title {
+    text-align: left;
+}
+
+.list-actions {
+    text-align: right;
+}

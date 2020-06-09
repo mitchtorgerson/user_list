@@ -1,0 +1,30 @@
+{
+  "name": "interview-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "classnames": "latest",
+    "connected-react-router": "^6.8.0",
+    "history": "^4.10.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.2.0",
+    "react-modal": "^3.11.2",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.2.0",
+    "react-scripts": "1.0.17",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "json-server --watch server/db.json --port 3001"
+  },
+  "devDependencies": {
+    "json-server": "^0.12.1"
+  }
+}
